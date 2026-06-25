@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "title": "Copilot Wrapped",
+    "subtitle": "Your year with Copilot — the good, the bad, and the roast.",
+    "user": "octocat",
+    "dateRange": "01 Jan — 31 Dec, 2025",
+    "source": "GitHub Copilot CLI session history (sample data)",
+    "generatedAt": "2026-06-25 05:50 UTC",
+    "totals": {
+      "repos": 4,
+      "sessions": 70,
+      "turns": 1232,
+      "files": 313,
+      "activeDays": 26,
+      "commits": 123,
+      "pushes": 105,
+      "prs": 10,
+      "issues": 0
+    }
+  },
+  "repos": [
+    {
+      "id": "acme-web",
+      "name": "acme-web",
+      "fullRepo": "acme/acme-web",
+      "shortRepo": "acme-web",
+      "unnamed": false,
+      "rank": 1,
+      "accent": "#a78bfa",
+      "accent2": "#7c3aed",
+      "stats": {
+        "sessions": 38,
+        "turns": 742,
+        "files": 156,
+        "fileEvents": 612,
+        "activeDays": 21,
+        "firstDay": "2025-02-03",
+        "lastDay": "2025-11-18"
+      },
+      "contributions": {
+        "commits": 64,
+        "pushes": 71,
+        "prs": 3,
+        "issues": 0
+      },
+      "languages": [
+        {
+          "name": "TypeScript",
+          "count": 318,
+          "color": "#3178c6"
+        },
+        {
+          "name": "TSX",
+          "count": 204,
+          "color": "#4ec9b0"
+        },
+        {
+          "name": "CSS",
+          "count": 96,
+          "color": "#563d7c"
+        },
+        {
+          "name": "JavaScript",
+          "count": 41,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Markdown",
+          "count": 28,
+          "color": "#9fb3c8"
+        }
+      ],
+      "deeds": [
+        "Rebuilt the checkout flow as a state machine",
+        "Shipped the dark-mode redesign across the app",
+        "Migrated the data layer to React Query",
+        "Added the onboarding wizard and feature flags"
+      ],
+      "structures": [
+        {
+          "name": "Checkout.tsx",
+          "edits": 47
+        },
+        {
+          "name": "useCart.ts",
+          "edits": 31
+        },
+        {
+          "name": "theme.css",
+          "edits": 22
+        }
+      ],
+      "derived": {
+        "msgsPerSession": 19.5,
+        "filesPerDay": 7.4,
+        "pushPrRatio": 23.7,
+        "commitPrRatio": 21.3,
+        "docRatio": 0.04,
+        "topLang": "TypeScript"
+      },
+      "roasts": [
+        "742 messages across 38 sessions on a frontend. Copilot has seen more of your CSS than your family has.",
+        "71 pushes, 3 pull requests. You don't do code review, you do `git push` and a prayer.",
+        "Checkout.tsx, edited 47 times. The cart works now. Probably. You stopped looking.",
+        "19.5 messages per session on average. Copilot files that under “clingy.”",
+        "71 pushes to 3 PRs. Code review is a suggestion you've chosen to ignore."
+      ],
+      "verdict": "A beautiful UI held together by 47 edits and hope."
+    },
+    {
+      "id": "payments-api",
+      "name": "payments-api",
+      "fullRepo": "acme/payments-api",
+      "shortRepo": "payments-api",
+      "unnamed": false,
+      "rank": 2,
+      "accent": "#22d3ee",
+      "accent2": "#0891b2",
+      "stats": {
+        "sessions": 19,
+        "turns": 333,
+        "files": 88,
+        "fileEvents": 244,
+        "activeDays": 14,
+        "firstDay": "2025-03-11",
+        "lastDay": "2025-10-02"
+      },
+      "contributions": {
+        "commits": 41,
+        "pushes": 22,
+        "prs": 6,
+        "issues": 0
+      },
+      "languages": [
+        {
+          "name": "Go",
+          "count": 188,
+          "color": "#00ADD8"
+        },
+        {
+          "name": "SQL",
+          "count": 64,
+          "color": "#e38c00"
+        },
+        {
+          "name": "YAML",
+          "count": 39,
+          "color": "#cb171e"
+        },
+        {
+          "name": "Markdown",
+          "count": 22,
+          "color": "#9fb3c8"
+        }
+      ],
+      "deeds": [
+        "Implemented idempotent webhook handling",
+        "Added the refunds + partial-capture endpoints",
+        "Hardened the retry queue with backoff",
+        "Wrote the load-test harness for settlement"
+      ],
+      "structures": [
+        {
+          "name": "webhook.go",
+          "edits": 29
+        },
+        {
+          "name": "ledger.go",
+          "edits": 18
+        },
+        {
+          "name": "schema.sql",
+          "edits": 12
+        }
+      ],
+      "derived": {
+        "msgsPerSession": 17.5,
+        "filesPerDay": 6.3,
+        "pushPrRatio": 3.7,
+        "commitPrRatio": 6.8,
+        "docRatio": 0.07,
+        "topLang": "Go"
+      },
+      "roasts": [
+        "A payments API whose most-edited file is the webhook handler. The money's fine; the webhooks are crying.",
+        "41 commits into 6 PRs. Suspiciously respectable — for someone who asked Copilot 333 times."
+      ],
+      "verdict": "Moves money in prod, moves blame in standup."
+    },
+    {
+      "id": "infra-terraform",
+      "name": "infra-terraform",
+      "fullRepo": "acme/infra-terraform",
+      "shortRepo": "infra-terraform",
+      "unnamed": false,
+      "rank": 3,
+      "accent": "#fb923c",
+      "accent2": "#ea580c",
+      "stats": {
+        "sessions": 9,
+        "turns": 121,
+        "files": 47,
+        "fileEvents": 132,
+        "activeDays": 8,
+        "firstDay": "2025-04-22",
+        "lastDay": "2025-09-14"
+      },
+      "contributions": {
+        "commits": 18,
+        "pushes": 12,
+        "prs": 1,
+        "issues": 0
+      },
+      "languages": [
+        {
+          "name": "Terraform",
+          "count": 96,
+          "color": "#844FBA"
+        },
+        {
+          "name": "YAML",
+          "count": 58,
+          "color": "#cb171e"
+        },
+        {
+          "name": "Markdown",
+          "count": 71,
+          "color": "#9fb3c8"
+        }
+      ],
+      "deeds": [
+        "Stood up the staging environment from scratch",
+        "Modularised the VPC and IAM definitions",
+        "Wired CI to plan-on-PR and apply-on-merge"
+      ],
+      "structures": [
+        {
+          "name": "main.tf",
+          "edits": 21
+        },
+        {
+          "name": "iam.tf",
+          "edits": 14
+        },
+        {
+          "name": "README.md",
+          "edits": 19
+        }
+      ],
+      "derived": {
+        "msgsPerSession": 13.4,
+        "filesPerDay": 5.9,
+        "pushPrRatio": 12.0,
+        "commitPrRatio": 18.0,
+        "docRatio": 0.32,
+        "topLang": "Terraform"
+      },
+      "roasts": [
+        "An infra repo that's a third Markdown. You documented the cluster more than you tested it.",
+        "12 pushes, 1 PR. `terraform apply` straight to staging is a lifestyle, not a mistake.",
+        "12 pushes to 1 PRs. Code review is a suggestion you've chosen to ignore.",
+        "32% of your files were Markdown. Writing *about* the code is still not writing the code."
+      ],
+      "verdict": "Infrastructure as code. Incidents as tradition."
+    },
+    {
+      "id": "weekend-bot",
+      "name": "weekend-bot",
+      "fullRepo": "octocat/weekend-bot",
+      "shortRepo": "weekend-bot",
+      "unnamed": false,
+      "rank": 4,
+      "accent": "#34d399",
+      "accent2": "#059669",
+      "stats": {
+        "sessions": 4,
+        "turns": 36,
+        "files": 22,
+        "fileEvents": 28,
+        "activeDays": 1,
+        "firstDay": "2025-06-07",
+        "lastDay": "2025-06-07"
+      },
+      "contributions": {
+        "commits": 0,
+        "pushes": 0,
+        "prs": 0,
+        "issues": 0
+      },
+      "languages": [
+        {
+          "name": "Python",
+          "count": 41,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Markdown",
+          "count": 14,
+          "color": "#9fb3c8"
+        }
+      ],
+      "deeds": [
+        "Prototyped a Discord bot for weekend plans",
+        "Wired up the OpenAI calls and slash commands"
+      ],
+      "structures": [
+        {
+          "name": "bot.py",
+          "edits": 9
+        },
+        {
+          "name": "README.md",
+          "edits": 5
+        }
+      ],
+      "derived": {
+        "msgsPerSession": 9.0,
+        "filesPerDay": 22.0,
+        "pushPrRatio": null,
+        "commitPrRatio": null,
+        "docRatio": 0.25,
+        "topLang": "Python"
+      },
+      "roasts": [
+        "22 files, 0 commits. A weekend project that didn't survive the weekend.",
+        "One day, one burst, zero commits. The bot is sentient now — and also abandoned.",
+        "22 files touched and not one commit. Schrödinger's code: it both exists and doesn't.",
+        "A whole repo raised and abandoned in 1 day. Speedrun, any%."
+      ],
+      "verdict": "A Discord bot nobody invited — including you."
+    }
+  ],
+  "superlatives": [
+    {
+      "award": "Most Needy",
+      "emoji": "📎",
+      "repo": "acme-web",
+      "accent": "#a78bfa",
+      "line": "742 messages sent. Copilot is considering a restraining order."
+    },
+    {
+      "award": "Biggest Cowboy",
+      "emoji": "🤠",
+      "repo": "acme-web",
+      "accent": "#a78bfa",
+      "line": "71 pushes, 3 PRs. `git push --force` is a personality."
+    },
+    {
+      "award": "The Ghost",
+      "emoji": "👻",
+      "repo": "weekend-bot",
+      "accent": "#34d399",
+      "line": "22 files, 0 commits. Came, saw, committed nothing."
+    },
+    {
+      "award": "The Workhorse",
+      "emoji": "🐎",
+      "repo": "acme-web",
+      "accent": "#a78bfa",
+      "line": "156 files wrangled. Somebody had to do the actual work."
+    }
+  ],
+  "finalVerdict": "In 26 days you ran 70 sessions and sent Copilot 1232 messages — but opened just 10 pull requests. You don't ship software. You confide in it."
+}

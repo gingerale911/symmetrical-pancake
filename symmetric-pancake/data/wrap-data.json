@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Copilot Wrapped",
+    "subtitle": "Your year with Copilot — the good, the bad, and the roast.",
+    "user": "octocat",
+    "dateRange": "01 Jan — 31 Dec, 2025",
+    "generatedBy": "copilot-wrap",
+    "source": "GitHub Copilot CLI session history (sample data)",
+    "totals": {
+      "repos": 4,
+      "sessions": 70,
+      "turns": 1232,
+      "files": 313,
+      "activeDays": 26,
+      "commits": 123,
+      "pushes": 105,
+      "prs": 10,
+      "issues": 0
+    }
+  },
+  "kingdoms": [
+    {
+      "id": "acme-web",
+      "repo": "acme/acme-web",
+      "rank": 1,
+      "stats": { "sessions": 38, "turns": 742, "files": 156, "fileEvents": 612, "activeDays": 21, "firstDay": "2025-02-03", "lastDay": "2025-11-18" },
+      "contributions": { "commits": 64, "pushes": 71, "prs": 3, "issues": 0 },
+      "languages": [
+        { "name": "TypeScript", "count": 318, "color": "#3178c6" },
+        { "name": "TSX", "count": 204, "color": "#4ec9b0" },
+        { "name": "CSS", "count": 96, "color": "#563d7c" },
+        { "name": "JavaScript", "count": 41, "color": "#f1e05a" },
+        { "name": "Markdown", "count": 28, "color": "#9fb3c8" }
+      ],
+      "deeds": [
+        "Rebuilt the checkout flow as a state machine",
+        "Shipped the dark-mode redesign across the app",
+        "Migrated the data layer to React Query",
+        "Added the onboarding wizard and feature flags"
+      ],
+      "structures": [
+        { "name": "Checkout.tsx", "edits": 47 },
+        { "name": "useCart.ts", "edits": 31 },
+        { "name": "theme.css", "edits": 22 }
+      ]
+    },
+    {
+      "id": "payments-api",
+      "repo": "acme/payments-api",
+      "rank": 2,
+      "stats": { "sessions": 19, "turns": 333, "files": 88, "fileEvents": 244, "activeDays": 14, "firstDay": "2025-03-11", "lastDay": "2025-10-02" },
+      "contributions": { "commits": 41, "pushes": 22, "prs": 6, "issues": 0 },
+      "languages": [
+        { "name": "Go", "count": 188, "color": "#00ADD8" },
+        { "name": "SQL", "count": 64, "color": "#e38c00" },
+        { "name": "YAML", "count": 39, "color": "#cb171e" },
+        { "name": "Markdown", "count": 22, "color": "#9fb3c8" }
+      ],
+      "deeds": [
+        "Implemented idempotent webhook handling",
+        "Added the refunds + partial-capture endpoints",
+        "Hardened the retry queue with backoff",
+        "Wrote the load-test harness for settlement"
+      ],
+      "structures": [
+        { "name": "webhook.go", "edits": 29 },
+        { "name": "ledger.go", "edits": 18 },
+        { "name": "schema.sql", "edits": 12 }
+      ]
+    },
+    {
+      "id": "infra-terraform",
+      "repo": "acme/infra-terraform",
+      "rank": 3,
+      "stats": { "sessions": 9, "turns": 121, "files": 47, "fileEvents": 132, "activeDays": 8, "firstDay": "2025-04-22", "lastDay": "2025-09-14" },
+      "contributions": { "commits": 18, "pushes": 12, "prs": 1, "issues": 0 },
+      "languages": [
+        { "name": "Terraform", "count": 96, "color": "#844FBA" },
+        { "name": "YAML", "count": 58, "color": "#cb171e" },
+        { "name": "Markdown", "count": 71, "color": "#9fb3c8" }
+      ],
+      "deeds": [
+        "Stood up the staging environment from scratch",
+        "Modularised the VPC and IAM definitions",
+        "Wired CI to plan-on-PR and apply-on-merge"
+      ],
+      "structures": [
+        { "name": "main.tf", "edits": 21 },
+        { "name": "iam.tf", "edits": 14 },
+        { "name": "README.md", "edits": 19 }
+      ]
+    },
+    {
+      "id": "weekend-bot",
+      "repo": "octocat/weekend-bot",
+      "rank": 4,
+      "stats": { "sessions": 4, "turns": 36, "files": 22, "fileEvents": 28, "activeDays": 1, "firstDay": "2025-06-07", "lastDay": "2025-06-07" },
+      "contributions": { "commits": 0, "pushes": 0, "prs": 0, "issues": 0 },
+      "languages": [
+        { "name": "Python", "count": 41, "color": "#3572A5" },
+        { "name": "Markdown", "count": 14, "color": "#9fb3c8" }
+      ],
+      "deeds": [
+        "Prototyped a Discord bot for weekend plans",
+        "Wired up the OpenAI calls and slash commands"
+      ],
+      "structures": [
+        { "name": "bot.py", "edits": 9 },
+        { "name": "README.md", "edits": 5 }
+      ]
+    }
+  ]
+}
